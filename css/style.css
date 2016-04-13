@@ -1,0 +1,456 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTZ1r3JsPcQLi8jytr04NNhU.woff) format('woff');
+}
+body {
+	font-family: 'Open Sans';
+	font-size: 16px;
+}
+b {
+	font-weight: bold;
+}
+
+i {
+	font-style: italic;
+}
+
+.main-section {
+	background: url(../img/apples.jpg) no-repeat;
+    background-size: cover;
+    padding: 2% 10%;
+}
+
+.logo, .navigation {
+	display: inline-block;
+	width: 45%;
+}
+.logo {
+	color: #FFF;
+	padding: .5em;
+	font-weight: bold;
+}
+
+.navigation ul li {
+	display: inline-block;
+	margin: 5%;
+	margin-right: 2%;
+}
+
+.navigation ul li a {
+	text-decoration: none;
+	color: #FFF;
+	padding: .5em;
+	padding-left: 0;
+}
+
+.navigation ul li a:hover {
+	border-bottom: 2px solid #A9A9A9;
+}
+
+
+.slogan {
+	text-align: center;
+	margin-top: 8em;
+}
+
+.slogan h1 {
+	font-size: 3em;
+	color: #FFF;
+}
+.slogan h1 .amp {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.slogan p {
+	margin-top: 0.8em;
+	font-size: 0.9em;
+	color: #FFF;
+}
+
+.header-button {
+	margin-top: 10em;
+	margin-bottom: 5em;
+	text-align: center;
+}
+.header-button .read-more {
+	text-decoration: none;
+	color: #FFF;
+	padding: .5em 3em;
+	border: 1px solid #FFF;
+	background: rgba(0,0,0, 0.4);
+}
+
+.header-button .read-more:hover {
+	background: rgba(255,255,255, 0.1);
+}
+
+.body-section {
+	padding: 10%;
+}
+
+.left-content, .right-content {
+	vertical-align: top;
+	display: inline-block;
+	width: 45%;
+}
+
+.right-content {
+	font-size: 0.8em;
+}
+
+.feature-article {
+	background: #DCDCDC;
+	padding:10%;
+	text-align: center;
+}
+
+.articles {
+	margin-top: 10%;
+}
+
+
+
+.article {
+	vertical-align: top;
+	display: inline-block;
+	border: 1px solid #FFF;
+}
+
+.article img {
+	max-width: 100%;
+
+}
+
+.south-france {
+	width: 62%;
+	height: auto;
+	margin-right: 7%; 
+	margin-bottom: 5%;
+}
+
+.budapest {
+	width: 30%;
+}
+
+.flower {
+	width: 30%;
+	margin-right: 7%;
+}
+
+.south-america {
+	width: 62%
+}
+
+.subscribe {
+	margin-top: 10%;
+	background: #FFF;
+	padding: 5% 0;
+}
+
+.subscribe p {
+	display: inline-block;
+	margin-right: 15%;
+}
+
+.subscribe input {
+	height: 2.5em;
+	width:  21em;
+	color: #000;
+	background: rgba(0,0,0,0.1);
+}
+
+.subscribe a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 0.7em;
+	padding: .8em 3em;
+	margin-left: -4px;
+	background: #303030;
+}
+
+.additional-info {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 5em;
+	margin-bottom: 5em;
+}
+
+.additional-info article {
+	color:#666;
+	display: inline-block;
+	width: 17%;
+	margin-right: 7%;
+	vertical-align: top;
+}
+.article {
+	position: relative;
+}
+
+.shadow {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5em;
+	box-shadow: inset 2px -36px 83px -32px #000000;
+}
+
+
+
+.image-likes {
+	position: absolute;
+	font-weight: bold;
+	color: #FFF;
+	padding: .5em 0.8em;
+	font-size: 0.8em;
+	background: rgba(0,0,0,0.4);
+	top: 7%;
+	right: 3%;
+	border: 1px solid #FFF;
+}
+
+.description {
+	position: absolute;
+	color: #FFF;
+	bottom: 8%;
+	left: 5%;
+}
+
+
+
+.additional-info article h3 {
+	color:#000;
+	font-size: 1.1em;
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+
+.additional-info article p {
+	font-size: 0.7em;
+	margin-bottom: 0.5em;
+}
+.newsletter{
+	margin-right: 0;
+}
+
+.newsletter input {
+	height: 2em;
+	width:  5em;
+	color: #000;
+	background: rgba(0,0,0,0.1);
+}
+
+.newsletter a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 0.6em;
+	padding: .7em 0.7em;
+	margin-left: -4px;
+	background: #303030;
+}
+
+.footer {
+	position: relative;
+	text-align: right;
+	width: 80%;
+	margin:0 auto;
+	border-top: 1px solid #999;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.footer-menu {
+	display: inline-block;
+}
+
+
+.footer-menu ul li {
+	display: inline-block;
+}
+.footer-menu ul li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-size: 0.9em;
+	padding: .5em;
+	margin-right: 0.8em ;
+}
+.footer .copyright{
+	position: absolute;
+	left: 0;
+	display: inline-block;
+	text-align: right;
+}
+
+.footer .copyright p {
+	display: inline-block;
+	text-align: right;
+	font-size: .9em;
+	color: #999;
+}
+
+
+
+
+@media screen and (max-width: 950px) {
+	.logo, .navigation {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.subscribe p {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 2%;
+	}
+
+	.additional-info article{
+		width: 35%;
+	}
+	.additional-info {
+		text-align: center;
+	}
+
+
+    
+}
+
+@media screen and (max-width: 540px) {
+	body {
+		font-size: 10px;
+	}
+	.slogan {
+		margin-top: 1em;
+	}
+
+	.slogan h1 {
+		font-size: 3em;
+	}
+
+	.header-button {
+		margin-top: 5em;
+		margin-bottom: 2em;
+		text-align: center;
+	}
+	.left-content, .right-content {
+		display: block;
+		width: 100%;
+		text-align:center;
+		margin-bottom: 2%;
+	}
+	.subscribe input {
+		height: 1.8em;
+		width:  10em;
+	}
+
+	.subscribe a {
+		vertical-align: middle;
+		font-size: 0.6em;
+		padding: 1.3em 2em;
+	}
+	.newsletter input {
+		display: none;
+	}
+
+	.newsletter a {
+		display: none;
+	}
+
+
+	.articles {
+		margin-top: 10%;
+	}
+
+
+
+	.article {
+		display: block;
+	}
+
+	.article img {
+		max-width: 100%;
+
+	}
+
+	.south-france {
+		width: 100%;
+		height: auto;
+		margin-bottom: 5%;
+	}
+
+	.budapest {
+		width: 45%;
+		display: inline-block;
+		margin-right: 9%;
+		margin-bottom: 5%; 
+
+	}
+
+	.flower {
+		width: 45%;
+		margin-right:0; 
+		display: inline-block;
+	}
+
+	.south-america {
+		width: 100%
+	}  
+}
+
+@media screen and (max-width: 350px)  {
+	.navigation ul li {
+		display: block;
+	}
+	.slogan h1 {
+		font-size: 2em;
+	}
+	.slogan p {
+		font-size: 0.7em
+	}
+	.feature-article {
+		padding:10% 2%;
+	}
+	.additional-info article {
+		display: block;
+		width: 100%;
+		vertical-align: top;
+	}
+	.additional-info {
+		width: 80%;
+		margin: 0 auto;
+		padding-top: 2em;
+	}
+	.footer {
+		position: static;
+		text-align: center;
+	}
+
+	.footer .copyright{
+		position: static;
+		margin-bottom: 2%;
+	}
+
+}
+
+@media screen and (max-width: 290px) {
+	.budapest {
+		width: 100%;
+		display: block;
+		margin-right: 0%;
+		margin-bottom: 5%; 
+
+	}
+
+	.flower {
+		width: 100%;
+		margin-bottom:5%; 
+		display:block;
+	}
+}
+
